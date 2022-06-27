@@ -1,0 +1,14 @@
+CompanyName    : PT Radiant Utama Interinsco TBK
+BusinessSector : Energy
+StockCode      : RUIS
+StockPrice     : 200
+StockShares    : 770000000
+Quartal        : 3
+Liability      : 853363807079
+Equity         : 464829855206
+NetProfit      : 14211284699
+
+
+
+
+
