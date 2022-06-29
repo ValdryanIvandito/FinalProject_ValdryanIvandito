@@ -1,0 +1,12 @@
+2022/06/29 09:39:37
+PT RADIANT UTAMA INTERINSCO TBK (RUIS) Result: 
+BusinessSector: ENERGY
+ROE(%): 4.1
+DER(%): 1.8
+BV: 604
+PBV: 0.3
+EPS: 24.6
+PER: 8.1
+Intrinsic Value: 796
+MOSPrice: 398
+Advice: Recommended investment, Reason: Undervalue even though profitability is not so good

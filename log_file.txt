@@ -1,0 +1,3 @@
+2022/06/29 09:39:35;LOGIN;User succeed login 
+2022/06/29 09:39:37;CREATE;Create data RUIS
+2022/06/29 09:40:31;LOGOUT;User logged out 
