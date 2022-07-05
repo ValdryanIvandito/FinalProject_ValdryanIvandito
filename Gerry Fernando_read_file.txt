@@ -1,0 +1,15 @@
+2022/07/05 09:57:20
+BANK RAKYAT INDONESIA (PERSERO) TBK (BBRI) Result: 
+BusinessSector: FINANCE
+Year: 2022
+Quartal: 1
+ROE(%): 17.9
+DER(%): 5.0
+BV: 1815
+PBV: 2.2
+EPS: 324.4
+PER: 12.3
+Intrinsic Value: 4352
+MOSPrice: 2176
+Advice: Recommended investment, Reason: Ideal Condition, undervalue, and good performance
+

@@ -1,4 +1,38 @@
-2022/06/29 09:39:35;LOGIN;User succeed login 
-2022/06/29 09:39:37;CREATE;Create data RUIS
-2022/06/29 09:40:31;LOGOUT;User logged out 
-2022/06/30 00:00:12;FAILED;valdra failed login
+2022/07/05 09:49:15;FAILED;admin failed login
+2022/07/05 09:49:23;FAILED;Valdryan Ivandito failed login
+2022/07/05 09:49:31;FAILED;Sofian Fadli failed login
+2022/07/05 09:49:40;FAILED;Gerry Fernando failed login
+2022/07/05 09:49:48;LOGIN;admin succeed login
+2022/07/05 09:49:50;CREATE;admin created BBRI data
+2022/07/05 09:51:00;OVERWRITE;admin overwrited all data
+2022/07/05 09:51:00;CREATE;admin created ACES data
+2022/07/05 09:51:55;READ;admin load all data 
+2022/07/05 09:52:02;CREATE;admin created RUIS data
+2022/07/05 09:52:49;READ;admin load all data 
+2022/07/05 09:52:58;LOGIN;admin login
+2022/07/05 09:52:58;READ;admin read database 
+2022/07/05 09:53:17;LOGIN;admin succeed login
+2022/07/05 09:53:19;LOGIN;admin login
+2022/07/05 09:53:19;READ;admin read all log 
+2022/07/05 09:53:36;LOGIN;Valdryan Ivandito succeed login
+2022/07/05 09:53:49;LOGIN;admin login
+2022/07/05 09:53:49;READ;admin read all log 
+2022/07/05 09:54:03;LOGIN;Valdryan Ivandito succeed login
+2022/07/05 09:54:05;CREATE;Valdryan Ivandito created RUIS data
+2022/07/05 09:54:58;READ;Valdryan Ivandito load all data 
+2022/07/05 09:55:09;FAILED;sdf failed administrator authority login
+2022/07/05 09:55:22;LOGIN;admin login
+2022/07/05 09:55:22;READ;admin read all log 
+2022/07/05 09:55:42;LOGIN;Sofian Fadli succeed login
+2022/07/05 09:55:44;CREATE;Sofian Fadli created ACES data
+2022/07/05 09:56:39;READ;Sofian Fadli load all data 
+2022/07/05 09:56:59;LOGIN;admin login
+2022/07/05 09:56:59;READ;admin read database 
+2022/07/05 09:57:19;LOGIN;Gerry Fernando succeed login
+2022/07/05 09:57:20;CREATE;Gerry Fernando created BBRI data
+2022/07/05 09:58:09;READ;Gerry Fernando load all data 
+2022/07/05 09:58:19;LOGIN;admin login
+2022/07/05 09:58:19;READ;admin read all log 
+2022/07/05 15:53:20;LOGIN;admin succeed login
+2022/07/05 15:53:23;LOGIN;admin login
+2022/07/05 15:53:23;READ;admin read all log 

@@ -1,0 +1,15 @@
+2022/07/05 09:55:44
+ACE HARDWARE INDONESIA TBK (ACES) Result: 
+BusinessSector: SERVICE & TRADE
+Year: 2022
+Quartal: 1
+ROE(%): 10.9
+DER(%): 0.3
+BV: 329
+PBV: 2.1
+EPS: 35.8
+PER: 19.6
+Intrinsic Value: 609
+MOSPrice: 304
+Advice: Watchlist, Reason: Good performance but not undervalue
+
