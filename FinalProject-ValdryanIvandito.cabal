@@ -35,6 +35,7 @@ executable FinalProject-ValdryanIvandito
     -- other-extensions:
     build-depends:    base ^>=4.15.0.0,
                       time,
+                      transformers,
                       mtl
     hs-source-dirs:   app
     default-language: Haskell2010

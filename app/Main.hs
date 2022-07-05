@@ -1,9 +1,12 @@
 -- IMPORT LIBRARY -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-import Control.Monad.State (StateT, MonadState (get), MonadTrans (lift), execStateT)
+import Control.Monad.Trans.State (StateT, state, evalStateT, runStateT, get, modify, put, execStateT)
+import Control.Monad.IO.Class (liftIO)
+import Control.Monad.Trans.Class (lift)
+import GHC.IO.Handle (hGetEcho, hSetEcho)
+import GHC.IO.Handle.FD (stdin)
+import Control.Exception (bracket_)
+import Data.Char (toUpper)
 import Data.Time
-import Data.Char
-import System.IO
-import Control.Exception
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- FORMULA ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -90,15 +93,19 @@ executeState = do
                lift (putStr (state))
 
 main :: IO ()
-main = login "Value Investor"
+main = do
+       execStateT executeState ("\n")
+       execStateT executeState ("HINT : BEFORE USING THIS APPLICATION, PLEASE READ THE 'README.txt' FILE!\n")
+       login "Value Investor"
                             
 login :: String -> IO ()
-login username = do 
-                 execStateT executeState ("\n")
+login username = do
                  execStateT executeState ("------------------------------------------------\n")
                  execStateT executeState ("Welcome to Value Investor Calculator Application\n")
                  execStateT executeState ("------------------------------------------------\n")
-                 execStateT executeState ("Please login with your investor account\n")
+                 execStateT executeState ("Hint : Please login with your investor account\n")
+                 execStateT executeState ("Or You can use guest account\n")
+                 execStateT executeState ("[Username: guest] [Password : SKYTROOPERS]\n\n")
                  execStateT executeState ("Username: ")
                  username <- getLine
                  execStateT executeState ("Password: ")
@@ -114,6 +121,7 @@ withEcho echo action = do
 checkLogin :: String -> String -> IO ()
 checkLogin username password 
     | (username == "admin") && (password == "LORDJEDI")                    = succeedLogin username
+    | (username == "guest") && (password == "SKYTROOPERS")                 = succeedLogin username
     | (username == "Valdryan Ivandito") && (password == "fibonacci@0.618") = succeedLogin username
     | (username == "Sofian Fadli") && (password == "fibonacci@1.618")      = succeedLogin username
     | (username == "Gerry Fernando") && (password == "fibonacci@2.618")    = succeedLogin username
@@ -133,7 +141,7 @@ reLogin username = do
                    appendFile "log_file.txt" (timeStampResult ++ ";" ++ "FAILED" ++ ";" ++ username ++ " failed login" ++ "\n")
                    execStateT executeState ("\n")
                    execStateT executeState ("------------------------------------------------\n")
-                   execStateT executeState ("Invalid Username or Password !!\n")
+                   execStateT executeState ("Invalid Username or Password!\n")
                    execStateT executeState ("------------------------------------------------\n")
                    execStateT executeState ("Choose menu\n")
                    execStateT executeState ("(1) Try Again\n")
@@ -148,8 +156,10 @@ menu :: String -> IO ()
 menu username = do 
                 execStateT executeState ("\n")
                 execStateT executeState ("------------------------------------------------\n")
-                execStateT executeState ("Welcome Value Investor, can I help you ?\n")
+                execStateT executeState ("Welcome Value Investor, can I help you?\n")
                 execStateT executeState ("------------------------------------------------\n")
+                execStateT executeState ("Hint : To input data you can use the sample data\n")
+                execStateT executeState ("available in the 'SampleDataSource.txt' file\n\n")
                 execStateT executeState ("Choose menu\n")
                 execStateT executeState ("(1) Input Data\n")
                 execStateT executeState ("(2) Read Data\n")
@@ -176,7 +186,7 @@ inputData :: String -> IO ()
 inputData username = do 
                      execStateT executeState ("\n")
                      execStateT executeState ("------------------------------------------------\n")
-                     execStateT executeState ("Write Data\n")
+                     execStateT executeState ("Input Data\n")
                      execStateT executeState ("------------------------------------------------\n")
                      timeStamp <- getZonedTime
                      execStateT executeState ("CompanyName: ")
@@ -371,11 +381,12 @@ adminLoginDatabase :: String -> IO ()
 adminLoginDatabase username = do 
                               execStateT executeState ("\n")
                               execStateT executeState ("------------------------------------------------\n")
-                              execStateT executeState ("To read database need administrator authority !!\n")
+                              execStateT executeState ("To read database need administrator authority!\n")
                               execStateT executeState ("------------------------------------------------\n")
+                              execStateT executeState ("Hint : [Username: admin] [Password : LORDJEDI]\n\n")
                               execStateT executeState ("Admin username: ")
                               username <- getLine
-                              execStateT executeState ("Password: ")
+                              execStateT executeState ("Admin Password: ")
                               password <- withEcho False getLine
                               execStateT executeState ("\n")
                               checkLoginAdminDatabase username password
@@ -384,11 +395,12 @@ adminLoginLog :: String -> IO ()
 adminLoginLog username = do 
                          execStateT executeState ("\n")
                          execStateT executeState ("------------------------------------------------\n")
-                         execStateT executeState ("To read log need administrator authority !!\n")
+                         execStateT executeState ("To read log need administrator authority!\n")
                          execStateT executeState ("------------------------------------------------\n")
+                         execStateT executeState ("Hint: [Username: admin] [Password : LORDJEDI]\n\n")
                          execStateT executeState ("Admin username: ")
                          username <- getLine
-                         execStateT executeState ("Password: ")
+                         execStateT executeState ("Admin Password: ")
                          password <- withEcho False getLine
                          execStateT executeState ("\n")
                          checkLoginAdminLog username password
@@ -410,7 +422,7 @@ failedLoginAdminDatabase username = do
                             appendFile "log_file.txt" (timeStampResult ++ ";" ++ "FAILED" ++ ";" ++ username ++ " failed administrator authority login" ++ "\n")
                             execStateT executeState ("\n")
                             execStateT executeState ("------------------------------------------------\n")
-                            execStateT executeState ("Invalid Admin Username or Password !!\n")
+                            execStateT executeState ("Invalid Admin Username or Password!\n")
                             execStateT executeState ("------------------------------------------------\n")
                             execStateT executeState ("Choose menu\n")
                             execStateT executeState ("(1) Try Again\n")
@@ -428,7 +440,7 @@ failedLoginAdminLog username = do
                                appendFile "log_file.txt" (timeStampResult ++ ";" ++ "FAILED" ++ ";" ++ username ++ " failed administrator authority login" ++ "\n")
                                execStateT executeState ("\n")
                                execStateT executeState ("------------------------------------------------\n")
-                               execStateT executeState ("Invalid Admin Username or Password !!\n")
+                               execStateT executeState ("Invalid Admin Username or Password!\n")
                                execStateT executeState ("------------------------------------------------\n")
                                execStateT executeState ("Choose menu\n")
                                execStateT executeState ("(1) Try Again\n")
