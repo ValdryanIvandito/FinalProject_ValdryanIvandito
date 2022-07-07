@@ -101,7 +101,7 @@ main = do
 login :: String -> IO ()
 login username = do
                  execStateT executeState ("------------------------------------------------\n")
-                 execStateT executeState ("Welcome to Value Investor Calculator Application\n")
+                 execStateT executeState ("Welcome to Value Investing Calculator Application\n")
                  execStateT executeState ("------------------------------------------------\n")
                  execStateT executeState ("Hint : Please login with your investor account\n")
                  execStateT executeState ("Or You can use guest account\n")

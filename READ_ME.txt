@@ -1,6 +1,8 @@
 1. ABOUT THE APPLICATION 
    This application is used to calculate financial ratios, intrinsic value, 
    and conclusions regarding stock investment recommendations
+   Note : This application designed to calculation financial ratio and intrinsic value 
+          for Indonesian Stock Market (IDX) only
 
 2. HOW TO LOGIN
    You can login using the accounts below :
