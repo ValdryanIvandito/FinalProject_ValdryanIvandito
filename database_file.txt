@@ -5,3 +5,9 @@
 2022/07/05 09:55:44;Created by Sofian Fadli;ACE HARDWARE INDONESIA TBK;ACES;SERVICE & TRADE;2022;1;10.9;0.3;329;2.1;35.8;19.6;609;304;Advice: Watchlist, Reason: Good performance but not undervalue
 2022/07/05 09:57:20;Created by Gerry Fernando;BANK RAKYAT INDONESIA (PERSERO) TBK;BBRI;FINANCE;2022;1;17.9;5.0;1815;2.2;324.4;12.3;4352;2176;Advice: Recommended investment, Reason: Ideal Condition, undervalue, and good performance
 2022/07/06 00:52:38;Created by guest;BANK RAKYAT INDONESIA (PERSERO) TBK;BBRI;FINANCE;2022;1;17.9;5.0;1815;2.2;324.4;12.3;4352;2176;Advice: Recommended investment, Reason: Ideal Condition, undervalue, and good performance
+2022/07/07 19:42:37;Created by Valdryan Ivandito;ACE HARDWARE INDONESIA TBK;ACES;SERVICE & TRADE;2022;1;10.9;0.3;329;2.1;35.8;19.6;752;376;Advice: Recommended investment, Reason: Ideal Condition, undervalue, and good performance
+2022/07/07 23:07:54;Created by guest;PT RADIANT UTAMA INTERINSCO TBK;RUIS;ENERGY;2022;1;8.7;1.6;643;0.3;55.7;3.2;1339;670;Advice: Recommended investment, Reason: Undervalue even though profitability is not so good
+2022/07/08 00:13:35;Created by Valdryan Ivandito;PT RADIANT UTAMA INTERINSCO TBK;RUIS;ENERGY;2022;1;8.7;1.6;643;0.3;55.7;3.2;1020;510;Advice: Recommended investment, Reason: Undervalue even though profitability is not so good
+2022/07/08 00:34:46;Created by guest;TELKOM INDONESIA (PERSERO) TBK;TLKM;INFRASTRUCTURE & TELECOMUNICATION;2022;1;19.1;1.0;1290;3.1;247.0;16.4;2963;1482;Advice: Watchlist, Reason: Good performance but not undervalue
+2022/07/08 00:36:18;Created by guest;ACE HARDWARE INDONESIA TBK;ACES;SERVICE & TRADE;2022;1;10.9;0.3;329;2.1;35.8;19.6;571;286;Advice: Watchlist, Reason: Good performance but not undervalue
+2022/07/08 00:37:33;Created by guest;PT RADIANT UTAMA INTERINSCO TBK;RUIS;ENERGY;2022;1;8.7;1.6;643;0.3;55.7;3.2;1020;510;Advice: Recommended investment, Reason: Undervalue even though profitability is not so good

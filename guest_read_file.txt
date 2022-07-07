@@ -13,3 +13,63 @@ Intrinsic Value: 4352
 MOSPrice: 2176
 Advice: Recommended investment, Reason: Ideal Condition, undervalue, and good performance
 
+2022/07/07 23:07:54
+PT RADIANT UTAMA INTERINSCO TBK (RUIS) Result: 
+BusinessSector: ENERGY
+Year: 2022
+Quartal: 1
+ROE(%): 8.7
+DER(%): 1.6
+BV: 643
+PBV: 0.3
+EPS: 55.7
+PER: 3.2
+Intrinsic Value: 1339
+MOSPrice: 670
+Advice: Recommended investment, Reason: Undervalue even though profitability is not so good
+
+2022/07/08 00:34:46
+TELKOM INDONESIA (PERSERO) TBK (TLKM) Result: 
+BusinessSector: INFRASTRUCTURE & TELECOMUNICATION
+Year: 2022
+Quartal: 1
+ROE(%): 19.1
+DER(%): 1.0
+BV: 1290
+PBV: 3.1
+EPS: 247.0
+PER: 16.4
+Intrinsic Value: 2963
+MOSPrice: 1482
+Advice: Watchlist, Reason: Good performance but not undervalue
+
+2022/07/08 00:36:18
+ACE HARDWARE INDONESIA TBK (ACES) Result: 
+BusinessSector: SERVICE & TRADE
+Year: 2022
+Quartal: 1
+ROE(%): 10.9
+DER(%): 0.3
+BV: 329
+PBV: 2.1
+EPS: 35.8
+PER: 19.6
+Intrinsic Value: 571
+MOSPrice: 286
+Advice: Watchlist, Reason: Good performance but not undervalue
+
+2022/07/08 00:37:33
+PT RADIANT UTAMA INTERINSCO TBK (RUIS) Result: 
+BusinessSector: ENERGY
+Year: 2022
+Quartal: 1
+ROE(%): 8.7
+DER(%): 1.6
+BV: 643
+PBV: 0.3
+EPS: 55.7
+PER: 3.2
+Intrinsic Value: 1020
+MOSPrice: 510
+Advice: Recommended investment, Reason: Undervalue even though profitability is not so good
+

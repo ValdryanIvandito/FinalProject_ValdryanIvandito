@@ -64,3 +64,28 @@
 2022/07/07 17:42:20;LOGOUT;guest logged out
 2022/07/07 18:26:25;LOGIN;guest succeed login
 2022/07/07 18:26:32;LOGOUT;guest logged out
+2022/07/07 18:30:41;FAILED;sf failed login
+2022/07/07 18:30:50;LOGIN;guest succeed login
+2022/07/07 18:30:58;LOGIN;admin login
+2022/07/07 18:30:58;READ;admin read all log 
+2022/07/07 18:31:10;FAILED;Valdryan Ivandito failed login
+2022/07/07 19:41:10;FAILED;Valdryan Ivandito failed login
+2022/07/07 19:41:43;LOGIN;Valdryan Ivandito succeed login
+2022/07/07 19:42:37;CREATE;Valdryan Ivandito created ACES data
+2022/07/07 19:46:21;LOGIN;admin login
+2022/07/07 19:46:21;READ;admin read all log 
+2022/07/07 19:46:59;FAILED;Valdryan Ivandito failed login
+2022/07/07 19:47:17;LOGIN;guest succeed login
+2022/07/07 19:47:23;READ;guest load all data 
+2022/07/07 23:07:39;LOGIN;guest succeed login
+2022/07/07 23:07:41;READ;guest load all data 
+2022/07/07 23:07:54;CREATE;guest created RUIS data
+2022/07/08 00:13:14;LOGOUT;guest logged out
+2022/07/08 00:13:32;LOGIN;Valdryan Ivandito succeed login
+2022/07/08 00:13:35;OVERWRITE;Valdryan Ivandito overwrited all data
+2022/07/08 00:13:35;CREATE;Valdryan Ivandito created RUIS data
+2022/07/08 00:34:33;FAILED;guest failed login
+2022/07/08 00:34:43;LOGIN;guest succeed login
+2022/07/08 00:34:46;CREATE;guest created TLKM data
+2022/07/08 00:36:18;CREATE;guest created ACES data
+2022/07/08 00:37:33;CREATE;guest created RUIS data

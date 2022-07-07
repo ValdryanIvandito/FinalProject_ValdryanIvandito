@@ -1,32 +1,41 @@
-CompanyName    : PT Radiant Utama Interinsco TBK
-BusinessSector : Energy
-StockCode      : RUIS
-StockPrice     : 180
-StockShares    : 770000000
-Year           : 2022
-Quartal        : 1
-Liability      : 816423175419
-Equity         : 495003354730
-NetProfit      : 10713098359
+CompanyName           : PT Radiant Utama Interinsco TBK
+BusinessSector        : Energy
+StockCode             : RUIS
+StockPrice            : 180
+StockShares           : 770000000
+Year                  : 2022
+Quartal               : 1
+Liability             : 816423175419
+Equity                : 495003354730
+NetProfit             : 10713098359
+Inflation 10 Years(%) : 44.21
+CAGR(%)               : 3.5
+MOS(%)                : 50
 
-CompanyName    : Ace Hardware Indonesia TBK
-BusinessSector : Service & Trade
-StockCode      : ACES
-StockPrice     : 700
-StockShares    : 17150000000
-Year           : 2022
-Quartal        : 1
-Liability      : 1642014628404
-Equity         : 5635023325606
-NetProfit      : 153498597471
+CompanyName           : Ace Hardware Indonesia TBK
+BusinessSector        : Service & Trade
+StockCode             : ACES
+StockPrice            : 700
+StockShares           : 17150000000
+Year                  : 2022
+Quartal               : 1
+Liability             : 1642014628404
+Equity                : 5635023325606
+NetProfit             : 153498597471
+Inflation 10 Years(%) : 44.21
+CAGR(%)               : 3.5
+MOS(%)                : 50
 
-CompanyName    : Bank Rakyat Indonesia (Persero) TBK
-BusinessSector : Finance
-StockCode      : BBRI
-StockPrice     : 4000
-StockShares    : 150043411587
-Year           : 2022
-Quartal        : 1
-Liability      : 1374292888000000
-Equity         : 272274732000000
-NetProfit      : 12167224000000
+CompanyName           : Bank Rakyat Indonesia (Persero) TBK
+BusinessSector        : Finance
+StockCode             : BBRI
+StockPrice            : 4000
+StockShares           : 150043411587
+Year                  : 2022
+Quartal               : 1
+Liability             : 1374292888000000
+Equity                : 272274732000000
+NetProfit             : 12167224000000
+Inflation 10 Years(%) : 44.21
+CAGR(%)               : 3.5
+MOS(%)                : 50
